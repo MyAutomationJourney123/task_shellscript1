@@ -5,7 +5,7 @@ read sal
 
 if [ $sal -lt 20000 ]
 then
-	echo "No tax"
+	echo "2% tax"
 elif [ $sal -ge 20000 ] && [ $sal -le 40000 ]
 then
 	echo "Tax is 5%"
